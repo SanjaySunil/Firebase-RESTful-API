@@ -1,7 +1,7 @@
 {
   "name": "firebase-restful-api",
   "version": "1.0.0",
-  "description": " An Express Firebase RESTful API for Firebase realtime-database.",
+  "description": "An Express Firebase RESTful API for Firebase realtime-database.",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
