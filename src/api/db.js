@@ -22,6 +22,13 @@ firebase.initializeApp(firebaseConfig);
 
 const router = express.Router();
 
+router.get('/', (req, res) => {
+  res.header('Content-Type', 'application/json');
+  res.send(JSON.stringify({
+    users: '/users',
+  }, null, 2));
+});
+
 router.get('/:ref', (req, res) => {
   const ref = firebase.database().ref(req.params.ref);
   res.header('Content-Type', 'application/json');
