@@ -1,3 +1,9 @@
+/**
+ * @file middlewares.js
+ * @author Sanjay Sunil
+ * @license GPL-3.0
+ */
+
 function notFound(req, res, next) {
   res.status(404);
   const error = new Error('Not Found');

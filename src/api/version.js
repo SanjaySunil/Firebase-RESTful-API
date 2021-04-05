@@ -1,3 +1,9 @@
+/**
+ * @file version.js
+ * @author Sanjay Sunil
+ * @license GPL-3.0
+ */
+
 const express = require('express');
 
 const app = require('../../package.json');

@@ -1,3 +1,9 @@
+/**
+ * @file .eslintrc.js
+ * @author Sanjay Sunil
+ * @license GPL-3.0
+ */
+
 module.exports = {
   env: {
     jest: true,

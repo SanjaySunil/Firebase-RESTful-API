@@ -1,3 +1,9 @@
+/**
+ * @file db.js
+ * @author Sanjay Sunil
+ * @license GPL-3.0
+ */
+
 const express = require('express');
 const firebase = require('firebase');
 

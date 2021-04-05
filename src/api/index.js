@@ -1,3 +1,9 @@
+/**
+ * @file index.js
+ * @author Sanjay Sunil
+ * @license GPL-3.0
+ */
+
 const express = require('express');
 
 const version = require('./version');
