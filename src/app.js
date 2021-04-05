@@ -19,7 +19,9 @@ app.get('/', (req, res) => {
   res.header('Content-Type', 'application/json');
   res.send(JSON.stringify({
     message: 'Welcome to Firebase RESTful API!',
-    api: 'api/'
+    api: 'api/',
+    author: 'Sanjay Sunil',
+    github: 'https://github.com/sanjaysunil/firebase-restful-api'
   }, null, 2));
 });
 
