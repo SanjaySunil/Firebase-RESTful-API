@@ -3,9 +3,9 @@ const request = require('supertest');
 const app = require('../src/app');
 
 describe('app', () => {
-  it('responds with a not found message', (done) => {
+  it('Responds with not found message.', (done) => {
     request(app)
-      .get('/what-is-this-even')
+      .get('/invalid-route')
       .set('Accept', 'application/json')
       .expect('Content-Type', /json/)
       .expect(404, done);
@@ -13,13 +13,14 @@ describe('app', () => {
 });
 
 describe('GET /', () => {
-  it('responds with a json message', (done) => {
+  it('Respond with route to API.', (done) => {
     request(app)
       .get('/')
       .set('Accept', 'application/json')
       .expect('Content-Type', /json/)
       .expect(200, {
-        message: '🦄🌈✨👋🌎🌍🌏✨🌈🦄'
+        message: 'Welcome to Firebase RESTful API!',
+        api: 'api/'
       }, done);
   });
 });
