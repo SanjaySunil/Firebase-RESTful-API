@@ -18,7 +18,7 @@
   "license": "MIT",
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^8.2.0",
+    "dotenv": "^8.5.1",
     "express": "^4.17.1",
     "firebase": "^8.4.3",
     "helmet": "^4.6.0",
